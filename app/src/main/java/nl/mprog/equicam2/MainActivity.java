@@ -21,6 +21,10 @@ public class MainActivity extends Activity {
     // 0 werkt niet: stream loopt vast, 1 werkt, 2 werkt zonder audio, 3 werkt zonder audio
     String VideoURL = "rtsp://equicam.noip.me:554/?inst=1/?audio_mode=1/?enableaudio=1/?h26x=4";
 
+    //MJPEG stream
+//    String VideoURL = "rtsp://equicam.noip.me:554/?inst=1/?audio_mode=1/?enableaudio=1/?h26x=0";
+
+
     //Optional test urls
     //    String VideoURL = "http://hls.cn.ru/streaming/2x2tv/tvrec/playlist.m3u8";
     //    String VideoURL = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
